@@ -1,3 +1,4 @@
+import 'package:com/ui/admin.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'CustomIcons.dart';
@@ -145,7 +146,11 @@ class _MyAppState extends State<Logins> {
                                   child: Material(
                                       color: Colors.transparent,
                                       child: InkWell(
-                                          onTap: () {},
+                                          onTap: () {
+                                            Navigator.push(context,
+                                                MaterialPageRoute(builder: (context) => Admin()
+                                                ));
+                                          },
                                           child: Center(
                                               child: Text(
                                                   'SIGNIN',

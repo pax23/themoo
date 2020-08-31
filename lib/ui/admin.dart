@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(Admin());
 }
 
-class MyApp extends StatelessWidget {
+class Admin extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -22,11 +22,8 @@ class ProfileScreen extends StatelessWidget {
       child: Scaffold(
         appBar: AppBar(
           elevation: 0.0,
-          backgroundColor: Colors.blueAccent//const Color(0xffea5d49),
-
+          backgroundColor: Colors.red//const Color(0xffea5d49),
         ),
-
-
 
         body: Stack(
           alignment: Alignment.center,

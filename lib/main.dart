@@ -10,7 +10,7 @@ import 'experiments/cards.dart';
 void main() {
   runApp(new MaterialApp(
     title: 'taenda bus app',
-    home:new MainApp(),
+    home:new Home(),
   ));
 }
 
